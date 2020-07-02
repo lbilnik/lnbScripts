@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pracownicy>
+	<pracownik>
+		<title> Zenek Wojak </title>
+		<numer2> Umowa Zr/2016 MQ/6 </numer2>
+		<zatrudnienie> Zatrudniony od 2016 </zatrudnienie>
+		<stanwisko> Stanowisko: Elektryk </stanwisko>
+	</pracownik>
+	<pracownik>
+		<title> Waldemar Wojak </title>
+		<numer2> Umowa Zr/2016 MR/1 </numer2>
+		<zatrudnienie> Zatrudniony od 2000 </zatrudnienie>
+		<stanwisko> Stanowisko: Spawacz </stanwisko>
+	</pracownik>
+	<pracownik>
+		<title> Łukasz Amator </title>
+		<numer2> Umowa Zr/2016 MR/2 </numer2>
+		<zatrudnienie> Zatrudniony od 2003 </zatrudnienie>
+		<stanwisko> Stanowisko: Wycinanie </stanwisko>
+	</pracownik>
+	<pracownik>
+		<title> Barbara Armator </title>
+		<numer2> Umowa Zr/2016 ML/7 </numer2>
+		<zatrudnienie> Zatrudniony od 1989 </zatrudnienie>
+		<stanwisko> Stanowisko: Pływak </stanwisko>
+	</pracownik>
+	<pracownik>
+		<title> Aleksandra Mała </title>
+		<numer2> Umowa Zr/2016 FW/1 </numer2>
+		<zatrudnienie> Zatrudniony od 2005 </zatrudnienie>
+		<stanwisko> Stanowisko: Coś tam robi </stanwisko>
+	</pracownik>
+</pracownicy>

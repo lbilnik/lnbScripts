@@ -1,0 +1,66 @@
+body
+{
+	background-color: black;
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+h1
+{
+	font-size: 36px;
+	font-weight: 400;
+	color: #C0D00F;
+	margin: 20px;
+}
+
+.jumpers
+{
+	text-align: center;
+}
+
+.jumpers img
+{
+	width: 100%;
+	height: auto;
+}
+
+.jumpers p
+{
+	margin-bottom: 30px;
+}
+
+.jumpers figcaption
+{
+	margin-top: 8px;
+}
+#navbar
+{
+	min-height: 58px;
+	border-bottom: 5px solid #fff;
+	background: #222; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff0 0%, #030 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff0), color-stop(100%,#030)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #110 0%,#030 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ff0 0%,#030 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ff0 0%,#030 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ff0 0%,#030 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0', endColorstr='#030',GradientType=0 ); /* IE6-9 */
+}
+#navbar a:hover
+{
+	text-shadow: 0 0 0.4em #FFF, 0 0 0.4em #FFF,
+        0 0 0.4em #FFF;
+}
+
+
+figure
+{
+	border: 2px solid #fff;
+}
+/*
+.navbar-nav li:hover>.dropdown-menu
+{
+	display: block;
+}
+*/

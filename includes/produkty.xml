@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<produkty>
+	<produkt>
+		<name> Tworzenie stron www </name>
+		<numer> id: 1 </numer>
+		<cena> cena: 500zł </cena>
+	</produkt>
+	<produkt>
+		<name> Tworzenie responsywnych stron www </name>
+		<numer> id: 2 </numer>
+		<cena> cena: 1000zł </cena>
+	</produkt>
+	<produkt>
+		<name> Tworzenie Grafiki </name>
+		<numer> id: 3 </numer>
+		<cena> cena: 200zł </cena>
+	</produkt>
+	<produkt>
+		<name> Tworzenie Wektorów </name>
+		<numer> id: 4 </numer>
+		<cena> cena: 400zł </cena>
+	</produkt>
+</produkty>

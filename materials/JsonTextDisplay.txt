@@ -1,0 +1,31 @@
+
+function AjaxScript() {
+
+var btnAjax = document.getElementById('AjaxButon');
+
+btnAjax.addEventListener('click',function(){
+	
+function createObject(){
+return new XMLHttpRequest();
+}
+	
+  var req = createObject();
+  req.open('GET','materials/AjaxDane.json',true);
+  req.send();
+  req.onreadystatechange = function(){
+     if(req.readyState == 4 && req.status == 200) {
+	var jsonObj = JSON.parse(req.responseText);
+	
+	  var output = "";
+	    for (let i in jsonObj.products) {
+	       output += "&lt;tr&gt;";
+               output +="&lt;td&gt;" + jsonObj.products[i].name + "&lt;/td&gt;";
+	       output +="&lt;td&gt;" + jsonObj.products[i].price + "&lt;/td&gt;";
+	       output +="&lt;td&gt;" + jsonObj.products[i].category + "&lt;/td&gt;";
+	       output += "&lt;/tr&gt;";
+	    }
+         document.getElementById('AjaxContent').innerHTML = output;
+	}
+      };
+ });
+}

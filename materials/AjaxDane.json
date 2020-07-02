@@ -1,0 +1,22 @@
+{"products":[
+	{
+		"name":"Kurs JavaScript",
+		"price":"55zł",
+		"category":"Internet"
+    },
+	{
+		"name":"Herbata",
+		"price":"70zł",
+		"category":"Coś"
+    },
+	{
+		"name":"Owoce",
+		"price":"10zł",
+		"category":"Jedzenie"
+    },
+	{
+		"name":"Kanapka",
+		"price":"90zł",
+		"category":"Jedzenie"
+    }
+]}
