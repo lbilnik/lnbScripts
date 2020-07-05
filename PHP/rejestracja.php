@@ -60,7 +60,7 @@
 			//echo $_POST['regulamin']; exit(); sprawdzanie czy checkbox jest zaznaczony
 		
 		//BOT or NOT? recaptcha
-		$sekret = "6LcTkPoUAAAAAP7gOP6GaZ1ChMuV7TuK28lDWR-V";
+		$sekret = "***********************************************";
 		
 		$sprawdz = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$sekret.'&response='.$_POST['g-recaptcha-response']);
 		
@@ -303,7 +303,7 @@
 					
 					?>
 								
-					<div class="g-recaptcha" data-sitekey="6LcTkPoUAAAAAKMnlnYWifkRD_fasp8V_CdQ2vTk"></div> 
+					<div class="g-recaptcha" data-sitekey="*******************************"></div> 
 					<br />
 					
 					<?php
